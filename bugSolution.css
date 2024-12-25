@@ -1,0 +1,10 @@
+/* bugSolution.css */
+.container {
+  width: calc(100% - 50px);
+  /* Correct: 100% is a percentage, and 50px is a length. The space between the operator and values is included */
+  height: calc(200px + 50%);
+  /* Correct: 200px is a length, and 50% is a percentage. */
+  background-color: lightblue;
+}
+
+/*In this solution, the units are compatible (px and %), and spaces are correctly placed between the operators and their operands.*/
